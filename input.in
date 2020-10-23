@@ -1,0 +1,17 @@
+250         1000      100     100   
+0.00025     0.01      0.37    10   
+5.0         75        1500    3
+0           20          
+2
+
+T           M        L1       L2  
+mut         diff     Qmat     deltat
+S           G        B        P
+IREAD       njump   
+nrmax
+
+
+IREAD = 0 --starts new run
+IREAD = 1 --read file pop.dat and continue from there
+P > 1
+
